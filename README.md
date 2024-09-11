@@ -59,7 +59,7 @@ This will create an executable for your operating system.
 
 ## Screenshots
 
-![ClipCatch Screenshot]([clipcatch.png](https://github.com/R4Z0R-1111/ClipCatch/blob/main/clipcatch.PNG))
+![ClipCatch Screenshot](clipcatch.PNG)
 
 ## 🤝 Contributing
 
