@@ -24,7 +24,7 @@ Ensure you have the following installed:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/R4Z0R1337/clipcatch.git
+git clone https://github.com/R4Z0R-1111/ClipCatch.git
 cd clipcatch
 ```
 
@@ -59,7 +59,7 @@ This will create an executable for your operating system.
 
 ## Screenshots
 
-![ClipCatch Screenshot](path_to_screenshot)
+![ClipCatch Screenshot](clipcatch.png)
 
 ## 🤝 Contributing
 
@@ -77,7 +77,7 @@ Contributions are welcome! If you have any improvements or feature requests, fee
 
 ## 📝 License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the MIT License.
 
 ---
 
