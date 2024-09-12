@@ -54,7 +54,7 @@ python clipcatch.py
 
 ## Screenshots
 
-![ClipCatch Screenshot](clipcatch.PNG)
+![ClipCatch Screenshot](clipcatch2.PNG)
 
 ## 🤝 Contributing
 
