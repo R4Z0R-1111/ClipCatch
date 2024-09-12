@@ -1,16 +1,17 @@
 
 # 🎥 ClipCatch
 
-**ClipCatch** is an open-source YouTube downloader built with **Electron** and **Node.js**. This desktop app allows you to easily download videos and audio from YouTube in multiple formats, including **MP4** and **MP3**. Perfect for anyone looking to access YouTube content offline!
+**ClipCatch** is an open-source YouTube downloader built with **Python** and **PyQt5**. This desktop app allows you to easily download videos and audio from YouTube in multiple formats, including **MP4** and **MP3**, all while offering a sleek and intuitive user interface.
 
 ## 🚀 Features
 
 - 📹 **Download YouTube videos** in high quality (MP4)
 - 🎵 **Extract audio** from YouTube videos (MP3)
-- 🖥️ Simple and user-friendly interface
-- ⚡ Fast and efficient downloads
-- 🛠 Open-source and free to use
-- ✨ Cross-platform support: Works on Windows, Mac, and Linux
+- 🖥️ Modern and user-friendly interface with a custom title bar
+- ⚡ **Fast and efficient downloads** with real-time progress tracking
+- 🛠 **Open-source** and free to use
+- ✨ **Cross-platform support**: Works on Windows, Mac, and Linux
+- 💾 **Save video/audio** directly to your preferred location
 
 ## 📦 Installation
 
@@ -18,8 +19,9 @@
 
 Ensure you have the following installed:
 
-- [Node.js](https://nodejs.org/)
+- [Python 3.7+](https://www.python.org/)
 - [Git](https://git-scm.com/)
+- [FFmpeg](https://ffmpeg.org/download.html) (for audio extraction in MP3 format)
 
 ### Clone the Repository
 
@@ -30,32 +32,25 @@ cd clipcatch
 
 ### Install Dependencies
 
+Use `pip` to install the required dependencies:
+
 ```bash
-npm install
+pip install -r requirements.txt
 ```
 
 ### Run the Application
 
 ```bash
-npm start
+python clipcatch.py
 ```
-
-### Build for Production
-
-To package the app for production, you can use:
-
-```bash
-npm run build
-```
-
-This will create an executable for your operating system.
 
 ## 🛠️ Usage
 
-1. Launch the app.
+1. Launch the app by running `clipcatch.py`.
 2. Enter the YouTube URL in the input field.
-3. Choose the format (MP4 or MP3).
-4. Click **Download** and track the progress with the built-in progress bar.
+3. Choose the format (MP4 or MP3) using the dropdown menu.
+4. Click **Download** to start. You can track the progress via the built-in progress bar.
+5. Save the video or audio to your chosen directory.
 
 ## Screenshots
 
@@ -63,17 +58,18 @@ This will create an executable for your operating system.
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you have any improvements or feature requests, feel free to:
+Contributions are welcome! If you want to improve ClipCatch or add new features, follow these steps:
 
 1. Fork the repository.
-2. Create a new branch.
-3. Submit a pull request.
+2. Create a new branch for your feature.
+3. Submit a pull request when ready.
 
 ## 🔧 Technologies Used
 
-- **Electron** for cross-platform desktop app development.
-- **Node.js** for backend processing.
-- **youtube-dl-exec** for video/audio downloads.
+- **Python** for backend and core functionality
+- **PyQt5** for the graphical user interface
+- **yt-dlp** for YouTube video/audio downloads
+- **FFmpeg** for audio extraction and format conversion
 
 ## 📝 License
 
@@ -83,8 +79,8 @@ This project is licensed under the MIT License.
 
 ### 🌟 Acknowledgments
 
-- Special thanks to the open-source community for the amazing tools that made this project possible.
-- Based on **youtube-dl** and **Electron**.
+- Special thanks to the open-source community for the incredible tools that made this project possible.
+- Based on **yt-dlp**, **PyQt5**, and **FFmpeg**.
 
 ---
 
