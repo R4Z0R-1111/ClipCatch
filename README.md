@@ -1,13 +1,13 @@
 
 # 🎥 ClipCatch
 
-**ClipCatch** is an open-source YouTube downloader built with **Python** and **PyQt5**. This desktop app allows you to easily download videos and audio from YouTube in multiple formats, including **MP4** and **MP3**, all while offering a sleek and intuitive user interface.
+**ClipCatch** is an open-source YouTube downloader built with **Python** and **CustomTkinter**. This desktop app allows you to easily download videos and audio from YouTube in multiple formats, including **MP4** and **MP3**, all while offering a sleek and intuitive user interface.
 
 ## 🚀 Features
 
 - 📹 **Download YouTube videos** in high quality (MP4)
 - 🎵 **Extract audio** from YouTube videos (MP3)
-- 🖥️ Modern and user-friendly interface with a custom title bar
+- 🖥️ Modern and user-friendly interface built with **CustomTkinter**
 - ⚡ **Fast and efficient downloads** with real-time progress tracking
 - 🛠 **Open-source** and free to use
 - ✨ **Cross-platform support**: Works on Windows, Mac, and Linux
@@ -41,12 +41,12 @@ pip install -r requirements.txt
 ### Run the Application
 
 ```bash
-python clipcatch.py
+python main.py
 ```
 
 ## 🛠️ Usage
 
-1. Launch the app by running `clipcatch.py`.
+1. Launch the app by running `main.py`.
 2. Enter the YouTube URL in the input field.
 3. Choose the format (MP4 or MP3) using the dropdown menu.
 4. Click **Download** to start. You can track the progress via the built-in progress bar.
@@ -54,7 +54,7 @@ python clipcatch.py
 
 ## Screenshots
 
-![ClipCatch Screenshot](clipcatch2.PNG)
+![ClipCatch Screenshot](clipcatch_screenshot.PNG)
 
 ## 🤝 Contributing
 
@@ -67,7 +67,7 @@ Contributions are welcome! If you want to improve ClipCatch or add new features,
 ## 🔧 Technologies Used
 
 - **Python** for backend and core functionality
-- **PyQt5** for the graphical user interface
+- **CustomTkinter** for the graphical user interface
 - **yt-dlp** for YouTube video/audio downloads
 - **FFmpeg** for audio extraction and format conversion
 
@@ -80,7 +80,7 @@ This project is licensed under the MIT License.
 ### 🌟 Acknowledgments
 
 - Special thanks to the open-source community for the incredible tools that made this project possible.
-- Based on **yt-dlp**, **PyQt5**, and **FFmpeg**.
+- Based on **yt-dlp**, **CustomTkinter**, and **FFmpeg**.
 
 ---
 
